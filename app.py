@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load pipeline (preprocessor + model)
-model = pickle.load(open(r"C:\Users\hp\Documents\class\pipe.pkl", "rb"))
+model = pickle.load(open("pipe.pkl", "rb"))
 
 st.title("🏠 House Price Prediction")
 
